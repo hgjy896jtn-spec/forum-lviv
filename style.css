@@ -933,5 +933,55 @@ border-radius:20px;
 ::-webkit-scrollbar-thumb:hover{
 
 background:#154a9b;
+ 
+}
+
+@media (max-width:768px){
+
+.hero{
+    min-height:auto;
+    padding-bottom:70px;
+}
+
+.hero-container{
+    display:block;
+}
+
+.hero-image{
+    display:none;
+}
+
+.hero-text{
+    width:100%;
+    text-align:left;
+}
+
+.hero-text h1{
+    font-size:58px;
+    line-height:1.05;
+}
+
+.description{
+    font-size:20px;
+    max-width:100%;
+}
+
+.menu{
+    gap:18px;
+    flex-wrap:wrap;
+    justify-content:flex-end;
+}
+
+.logo img{
+    width:50px;
+}
+
+.logo h2{
+    font-size:24px;
+}
+
+.btn{
+    margin-top:10px;
+}
 
 }
