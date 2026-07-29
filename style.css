@@ -112,18 +112,15 @@ nav{
 
     margin:auto;
 
-    display:flex;
-
-    justify-content:space-between;
-
-    align-items:center;
+    display:block;
 
     min-height:80vh;
 }
 
 .hero-text{
 
-    width:50%;
+     width:100%;
+    max-width:700px;
 }
 
 .subtitle{
